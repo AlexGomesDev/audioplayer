@@ -1,0 +1,43 @@
+body{
+    background-color: cadetblue;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    top: 150px;
+    background-color: rgb(85, 111, 145);
+    box-shadow: 2px 10px 50px rgb(0, 0, 0);
+    height: 100px;
+    width: 350px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+#controles {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.btn {
+    width: 35px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1px;
+}
+
+.btn:hover {
+    width: 40px;    
+}
+
+
+/* Não entendi o porque, e nem sei se estou certo mas me pareceu que outros elementos influenciam 
+no posicionamento deste elemento. Como não consegui usar como esperava o (position + transform)
+acabei alinhando meio no olho mesmo. */
+#barra_volume{
+    position: relative;
+    top: 21%;
+    width: 100px;    
+}
